@@ -10,9 +10,7 @@ function App() {
   ];
   const [selectedValue, setSelectedValue] = useState(null);
   const handleChange = (e) => {
-    console.log(e, 'value');
     setSelectedValue(e);
-    console.log(selectedValue, 'value s');
   };
   return (
     <div>
